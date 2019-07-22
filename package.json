@@ -1,0 +1,33 @@
+{
+  "name": "observer-react",
+  "description": "Subscription builder component to manage a subscription to Observable",
+  "version": "0.0.1",
+  "scripts": {
+      "build": "tsc"
+  },
+  "author": {
+    "name": "Cole Lawrence",
+    "email": "cole@colelawrence.com"
+  },
+  "main": "./dist/observer.js",
+  "types": "./dist/observer.d.ts",
+  "files": [
+      "./dist/*",
+      "./src/*",
+      "./README.md"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/colelawrence/observer-react.git"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "rxjs": "6"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.23",
+    "react": "^16.8.6",
+    "rxjs": "^6.5.2",
+    "typescript": "^3.5.3"
+  }
+}

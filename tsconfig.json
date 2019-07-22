@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "module": "es6",
+      "lib": ["es6"]
+    },
+    "files": [
+        "./src/observer.ts"
+    ]
+  }
+  
