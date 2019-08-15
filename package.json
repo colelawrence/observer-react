@@ -1,7 +1,7 @@
 {
   "name": "observer-react",
   "description": "Subscription builder component to manage a subscription to Observable",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "scripts": {
       "build": "tsc"
   },
@@ -12,9 +12,9 @@
   "main": "./dist/observer.js",
   "types": "./dist/observer.d.ts",
   "files": [
-      "./dist/*",
-      "./src/*",
-      "./README.md"
+      "dist/**",
+      "src/**",
+      "README.md"
   ],
   "repository": {
     "type" : "git",
@@ -24,7 +24,7 @@
     "react": "*",
     "rxjs": "6"
   },
-  "dependencies": {
+  "devDependencies": {
     "@types/react": "^16.8.23",
     "react": "^16.8.6",
     "rxjs": "^6.5.2",

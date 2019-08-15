@@ -57,7 +57,7 @@ type ObserverProps<T> = {
   complete?: () => React.ReactNode;
 };
 
-const NONE = () => React.Fragment({});
+const NONE = () => null;
 
 /**
  * Observer builds itself based on the latest value emitted by an Observable.
